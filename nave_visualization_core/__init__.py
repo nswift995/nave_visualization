@@ -1,1 +1,1 @@
-from nave_visualization_core.vis_functions import functions
+import nave_visualization_core.vis_functions  
