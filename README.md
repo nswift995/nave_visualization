@@ -7,15 +7,17 @@ This Python package provides functions for visualizing environmental data, such 
 This package contains the following modules:
 
 - `nave_visualization_core`: Main module, including functions for date generation, loading datasets, and creating environmental maps.
+- test: Ajupyter notebook that demos all the functions in nave_visualization_core.
+
 
 
 ### Example Usage
 
 ```python
-import nave_visualization_core
+import nave_visualization_core as nave
 
 # Example function call
-nave_visualization_core.functions.build_evapotranspiration_map(twr_block, output)
+nave.functions.build_evapotranspiration_map(twr_block, output)
 
 ```
 
