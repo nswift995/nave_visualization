@@ -10,7 +10,7 @@ NAVE_GRANULE_V = 1.0
 
 setup(
     name="nave_visualization",  
-    version="0.1.0",  
+    version=NAVE_GRANULE_V,  
     description=DESCRIPTION,  
     author_email="<nic@naveanalytics.com>",  
     packages=find_packages(),  
