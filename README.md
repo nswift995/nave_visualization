@@ -44,7 +44,7 @@ To install the dependencies, you can install them manually:
      pip install numpy 
      pip install pandas 
      pip install shapely 
-     pip install xarray 
+     python -m pip install "xarray[complete]"
      pip install rasterio
      ```
 
