@@ -1,1 +1,3 @@
 dist/
+build/
+nave_visualization.egg-info/
