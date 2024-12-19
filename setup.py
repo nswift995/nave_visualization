@@ -20,7 +20,7 @@ setup(
     install_requires=[ 
         'geopandas',
         'matplotlib',
-        'numpy',
+        'numpy==2.0.2',
         'pandas',
         'shapely',
         'xarray',
