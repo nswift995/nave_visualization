@@ -1,3 +1,14 @@
+Metadata-Version: 2.1
+Name: nave-visualization
+Version: 1.1
+Summary: A Python package for visualizing environmental data, specifically evapotranspiration, leaching risk,
+Author-email: <nic@naveanalytics.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Nave Visualization
 
 This Python package provides functions for visualizing environmental data, such as evapotranspiration, leaching risk, and precipitation/irrigation data. It works with geospatial datasets, processes them, and generates maps and visualizations, primarily outputting results as PDF files.
@@ -27,13 +38,13 @@ Prerequisites
 This package is compatible with Python 3.6 and above. You can download the latest version of Python from [python.org](https://www.python.org/downloads/).
 This package depends on several Python libraries. You can install them using pip:
 
-- geopandas — For working with geospatial data.
-- matplotlib — For creating static, animated, and interactive visualizations in Python.
-- numpy — A library for numerical operations.
-- pandas — For data manipulation and analysis.
-- shapely — For geometric operations and analysis.
-- xarray — For working with labeled multi-dimensional arrays.
-- rasterio — For reading and writing geospatial raster data.
+- geopandas â€” For working with geospatial data.
+- matplotlib â€” For creating static, animated, and interactive visualizations in Python.
+- numpy â€” A library for numerical operations.
+- pandas â€” For data manipulation and analysis.
+- shapely â€” For geometric operations and analysis.
+- xarray â€” For working with labeled multi-dimensional arrays.
+- rasterio â€” For reading and writing geospatial raster data.
 
 To install the dependencies, you can install them manually:
  - Install them manually:
