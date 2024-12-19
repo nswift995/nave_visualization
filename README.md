@@ -17,7 +17,7 @@ This package contains the following modules:
 import nave_visualization_core as nave
 
 # Example function call
-nave.functions.build_evapotranspiration_map(twr_block, output)
+nave.build_evapotranspiration_map(twr_block, output)
 
 ```
 
