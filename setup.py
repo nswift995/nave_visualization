@@ -6,7 +6,7 @@ load datasets into dictionaries, and create various types of maps for visualizin
 such as evapotranspiration and leaching risk, using geospatial data. 
 Outputs are typically saved as PDF files with detailed visualizations."""
 
-NAVE_GRANULE_V = 1.4
+NAVE_GRANULE_V = 1.5
 
 with open("README.md", "r") as f:
           description2 = f.read()
@@ -25,7 +25,6 @@ setup(
         'shapely',
         'xarray',
         'rasterio',
-        'pybind11',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
