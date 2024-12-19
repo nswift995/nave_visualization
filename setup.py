@@ -6,7 +6,7 @@ load datasets into dictionaries, and create various types of maps for visualizin
 such as evapotranspiration and leaching risk, using geospatial data. 
 Outputs are typically saved as PDF files with detailed visualizations."""
 
-NAVE_GRANULE_V = 1.1
+NAVE_GRANULE_V = 1.2
 
 with open("README.md", "r") as f:
           description2 = f.read()
